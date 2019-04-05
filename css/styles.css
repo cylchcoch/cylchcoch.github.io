@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto Slab', serif;
+}
+
+.logo {
+	position: absolute;
+	top: 0;
+	left: 50px;
+	width: 120px;
+	height: 120px;
+	z-index: 100;
+}
+
+.navigation {
+	background-color: #f4f4f4;
+	color: #333;
+	padding: 20px;
+	display: flex;
+	justify-content: flex-end;
+	border-bottom: 5px solid #c83737;
+}
+
+.navigation i {
+	font-size: 2em;
+	padding: 0px 5px;
+}
+
+.navigation i:hover {
+	color: #c83737;
+	cursor: pointer;
+}
+
+.hero {
+	position: relative;
+	height: 800px;
+}
+
+.hero-bg {
+	position: absolute;
+	width: 100%;
+	height: 800px;
+	object-fit: cover;
+}
+
+.hero-txt {
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 20px;
+	border-radius: 20px;
+	color: #333;
+}
+
+.hero-txt i {
+	color: #c83737;
+	font-size: 5em;
+	overflow: hidden;
+}
+
+.hero-txt button {
+	background-color: transparent;
+	color: #c83737;
+	border: 2px solid #c83737;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+.hero-txt button:hover {
+	background-color: #c83737;
+	color: white;
+	cursor: pointer;
+}
+
+.text-container {
+	padding: 20px 100px;
+	text-align: center;
+}
+
+.text-container h1 {
+	color: #c83737;
+}
+
+.text-container-grey {
+	padding: 20px 100px;
+	text-align: center;
+	background-color: #f4f4f4;
+}
+
+.text-container-grey h1 {
+	color: #c83737;
+}
+
+.text-container-red {
+	padding: 20px 100px;
+	text-align: center;
+	background-color: #c83737;
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+}
+
