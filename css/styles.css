@@ -179,6 +179,12 @@ h1, h2, h3, h4 {
 	padding: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+	.gallery img {
+		width: 75%;
+	}
+}
+
 .gallery img:hover {
 	opacity: 0.8;
 }
