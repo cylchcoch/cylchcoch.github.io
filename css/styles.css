@@ -102,7 +102,7 @@ h1, h2, h3, h4 {
 }
 
 .text-container {
-	padding: 20px 100px;
+	padding: 20px 300px;
 	text-align: center;
 }
 
@@ -117,7 +117,7 @@ h1, h2, h3, h4 {
 }
 
 .text-container-grey {
-	padding: 20px 100px;
+	padding: 20px 300px;
 	text-align: center;
 	background-color: #f4f4f4;
 }
@@ -164,5 +164,22 @@ h1, h2, h3, h4 {
 	border-radius: 50%;
 	padding: 10px;
 	background-color: #c83737;
+}
+
+.galley {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gallery img {
+	height: 400px;
+	width: 300px;
+	object-fit: cover;
+	padding: 10px;
+}
+
+.gallery img:hover {
+	opacity: 0.8;
 }
 
