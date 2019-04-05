@@ -16,6 +16,14 @@ h1, h2, h3, h4 {
 	z-index: 100;
 }
 
+@media only screen and (max-width: 600px) {
+	.logo {
+		width: 70px;
+		height: 70px;
+		left: 0;
+	}
+}
+
 .navigation {
 	background-color: #f4f4f4;
 	color: #333;
@@ -23,6 +31,13 @@ h1, h2, h3, h4 {
 	display: flex;
 	justify-content: flex-end;
 	border-bottom: 5px solid #c83737;
+}
+
+@media only screen and (max-width: 600px) {
+	.navigation {
+		background-color: #c83737;
+		color: white;
+	}
 }
 
 .navigation i {
@@ -38,6 +53,12 @@ h1, h2, h3, h4 {
 .hero {
 	position: relative;
 	height: 800px;
+}
+
+@media only screen and (max-width: 600px) {
+	.hero-txt {
+		width: 75%;
+	}
 }
 
 .hero-bg {
