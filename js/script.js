@@ -13,3 +13,13 @@ function facebook() {
 function instagram() {
 	window.location.href = "https://www.instagram.com/cylchcoch/";
 }
+
+//en
+function english() {
+	window.location.href = "english.html";
+}
+
+//cym
+function welsh() {
+	window.location.href = "index.html";
+}
