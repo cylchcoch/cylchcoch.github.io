@@ -7,12 +7,70 @@ h1, h2, h3, h4 {
 	font-family: 'Roboto Slab', serif;
 }
 
-.logo {
+.facebook-link {
 	position: absolute;
-	top: 0;
-	left: 50px;
-	width: 120px;
-	height: 120px;
+	right: 0;
+	top: 300px;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	background-color: #3C5A99;
+	color: white;
+	z-index: 200;
+}
+
+@media only screen and (max-width: 600px) {
+	.facebook-link {
+		display: none;
+	}
+}
+
+.facebook-link i:hover {
+	cursor: pointer;
+	animation: shrink 1s forwards;
+}
+
+.instagram-link i:hover {
+	cursor: pointer;
+	animation: shrink 1s forwards;
+}
+
+.instagram-link {
+	position: absolute;
+	right: 0;
+	top: 355px;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	background-color: #C13584;
+	color: white;
+	z-index: 200;
+}
+
+@media only screen and (max-width: 600px) {
+	.instagram-link {
+		display: none;
+	}
+}
+
+.instagram-link i {
+	font-size: 2em;
+}
+
+.facebook-link i {
+	font-size: 2em;
+}
+	
+
+.logo {
+	width: 60px;
+	height: 60px;
 	z-index: 100;
 }
 
@@ -25,19 +83,9 @@ h1, h2, h3, h4 {
 }
 
 .navigation {
-	background-color: #f4f4f4;
-	color: #333;
-	padding: 20px;
-	display: flex;
-	justify-content: flex-end;
-	border-bottom: 5px solid #c83737;
-}
+	background-color: #c83737;
+	padding: 0px 20px;
 
-@media only screen and (max-width: 600px) {
-	.navigation {
-		background-color: #c83737;
-		color: white;
-	}
 }
 
 .navigation i {
@@ -189,3 +237,28 @@ h1, h2, h3, h4 {
 	opacity: 0.8;
 }
 
+.social-box {
+	display: flex;
+	justify-content: center;
+}
+
+.social-box i {
+	font-size: 2em;
+	padding: 10px;
+}
+
+.social-box i:hover {
+	animation: pop 1s infinite;
+	cursor: pointer;
+}
+
+@keyframes pop {
+	0% {transform: scale(1);}
+	50% {transform: scale(1.1);}
+	100% {transform: scale(1);}
+}
+
+@keyframes shrink {
+	from {transform: scale(1);}
+	to {transform: scale(0.8);}
+}
