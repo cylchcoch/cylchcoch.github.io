@@ -125,7 +125,7 @@ h1, h2, h3, h4 {
 
 @media only screen and (max-width: 600px) {
 	.hero-txt {
-		left: 40px;
+		left: 20px;
 		width: 250px;
 	}
 }
